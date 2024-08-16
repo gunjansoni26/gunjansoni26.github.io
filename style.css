@@ -5,6 +5,8 @@ body {
     /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
     /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
     background-image: url(/assets/blur1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
     font-family: monospace;
     margin: 0;
@@ -103,14 +105,15 @@ form button {
     margin-top: 10px;
 }
 
-.contact-info {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-}
+
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #01010183;
+    backdrop-filter: blur(2);
+}
+
+footer p{
+    padding-top: 15px;
 }
