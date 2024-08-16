@@ -1,7 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     color: #ffffff;
-    background-color: #1a1a1a;
+    /* background-image: url(/assets/ai.jpeg); */
+    /* background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); */
+    /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
+    background-image: url(/assets/blur1.png);
+    
+    font-family: monospace;
     margin: 0;
     padding: 0;
 }
@@ -11,25 +16,17 @@ header {
     padding: 10px 0;
 }
 
-nav ul {
-    list-style: none;
-    text-align: center;
-}
+.navbar-nav:hover{
+    color: lime !important;
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 .hero {
     text-align: center;
     padding: 50px 0;
-    background: #282c34;
+    background: #12121275;
+    border-radius: 20px;
+    backdrop-filter: blur(1);
 }
 
 .hero h1 {
@@ -65,10 +62,18 @@ ul#skills-list li {
     transition: width 1s ease-in-out;
 }
 
-.project, .blog-post {
+.blog-post {
     background-color: #333;
     padding: 10px;
     margin: 10px 0;
+}
+
+.project1 {
+    padding-left: 5px !important;
+}
+
+.project2{
+    padding-right: 5px !important;
 }
 
 form {

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded'), () => {
     const skillBars = document.querySelectorAll('.skill-bar');
     
     // Function to animate skill bars
@@ -36,6 +36,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Function to validate email
-    const validateEmail = (email) => {
-        const re = /^[a-zA-Z0-
+}
+
+   
